@@ -1,0 +1,11 @@
+.mainarea{
+    width: 81.5%;
+    height: 87vh;
+    float: right;
+    margin: 8px;
+    margin-left: 0px;
+    border-radius: 8px;
+    padding: 55px;
+    padding-top: 35px;
+    background-color:rgb(208, 173, 224);
+}

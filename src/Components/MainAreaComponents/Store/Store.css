@@ -1,0 +1,57 @@
+.cards{
+    width: 250px;
+    height: 300px;
+    border-right: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
+    position: relative;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-right: 8px;
+    background-color: rgb(248, 253, 253);
+}
+.cards:hover{
+   
+    border-left: 1px solid rgb(182, 182, 182);
+    border-top: 1px solid rgb(182, 182, 182);
+    border-right: none;
+    border-bottom: none;
+   box-shadow: 3px 3px 15px rgb(126, 126, 126);
+   
+}
+
+.cardflex{
+    /* position: fixed; */
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    /* overflow: hidden;
+    overflow-y: scroll; */
+    overflow: auto;
+}
+.cardflex::-webkit-scrollbar{
+    width: 10px;
+  }
+  .cardflex::-webkit-scrollbar-track{
+    border-radius:50px;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .cardflex::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(lightgray,rgb(78, 72, 72));
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+.image{
+    padding: 5px;
+}
+.image img{
+    width: 240px;
+    border-radius: 8px;
+    height: 180px;
+}
+.details{
+    margin-top: 5px;
+    padding: 5px;
+}
