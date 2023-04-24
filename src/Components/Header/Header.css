@@ -4,12 +4,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 5px;
-    background-color: rgb(223, 255, 45);
+    background-color: rgb(247, 247, 247);
 }
 .logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color:rgb(153, 58, 45);
 }
 .Main-head ul{
     display: flex;

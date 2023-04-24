@@ -8,7 +8,9 @@
     color: rgb(71, 71, 71);
 
 }
-
+.title{
+    color:rgb(153, 58, 45);
+}
 .maincard:hover{
     background-color:rgba(114, 117, 117, 0.11);
     border: 1px solid rgb(194, 194, 194);
@@ -35,6 +37,6 @@ color: rgb(71, 71, 71);
 
 }
 .ana h1{
-color: rgb(71, 71, 71);
+color:rgb(153, 58, 45);
 text-align: center;
 }
