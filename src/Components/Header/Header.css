@@ -4,7 +4,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 5px;
-    background-color: rgb(247, 247, 247);
+    /* background-color: rgb(247, 247, 247); */
+    background:linear-gradient(rgb(193, 193, 226), rgb(235, 226, 228));
 }
 .logo{
     display: flex;

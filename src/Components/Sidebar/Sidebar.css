@@ -8,7 +8,8 @@
     /* border: 1px solid gray; */
     text-align: center;
     /* background-color:rgb(236, 236, 236); */
-    background-color:rgb(247, 247, 247);
+    /* background-color:rgb(247, 247, 247); */
+    background:linear-gradient(rgb(193, 193, 226), rgb(247, 247, 203), rgb(224, 190, 196));
     /* justify-content: flex-start; */
     float: left;
     text-decoration: none;
